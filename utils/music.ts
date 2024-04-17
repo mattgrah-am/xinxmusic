@@ -1,7 +1,8 @@
 export const music = {
   ep: [
     {
-      "Close Your Eyes and Listen": [
+      title: "Close Your Eyes and Listen",
+      tracks: [
         {
           title: "01 - Dirty Jesse James",
           url: "https://media.xinxmusic.com/Xinx-Close_your_Eyes_and_Listen-01-Dirty_Jesse_James.mp3",
@@ -23,7 +24,10 @@ export const music = {
           url: "https://media.xinxmusic.com/Xinx-Close_your_Eyes_and_Listen-05-First_there_is_Silence.mp3",
         },
       ],
-      "End of Time": [
+    },
+    {
+      title: "End of Time",
+      tracks: [
         {
           title: "01 - No Laughing Matter",
           url: "https://media.xinxmusic.com/Xinx-End_of_Time-01-No_Laughing%20Matter.mp3",
