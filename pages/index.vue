@@ -2,7 +2,7 @@
   <div class="max-w-screen-md mx-auto px-4 md:px-8">
     <h1 class="sr-only">Xinx - The Music Archive</h1>
     <img
-      src="../../logo-alt.webp"
+      src="/logo-alt.webp"
       alt="Xinx - The Music Archive"
       width="1024"
       height="532"
