@@ -25,3 +25,7 @@ logs
 
 # orig images
 assets/orig-img/
+
+# https keys
+localhost-key.pem
+localhost.pem

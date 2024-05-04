@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply scroll-smooth;
+    @apply scroll-smooth font-["GeistMono"];
   }
   body {
     @apply bg-neutral-50 text-neutral-900;
