@@ -20,7 +20,7 @@
         </li>
         <li class="transition duration-200 hover:blur-[1px]">
           <NuxtLink
-            to="mailto:&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#120;&#105;&#110;&#120;&#109;&#117;&#115;&#105;&#99;&#46;&#99;&#111;&#109;?subject=Enquiry from Xinxmusic website"
+            to="mailto:%6d%61%69%6c%40%78%69%6e%78%6d%75%73%69%63%2e%63%6f%6d?subject=Enquiry from Xinxmusic website"
             target="_blank"
             rel="noopener noreferrer"
           >
