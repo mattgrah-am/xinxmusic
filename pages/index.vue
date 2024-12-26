@@ -6,12 +6,10 @@
       alt="Xinx - The Music Archive"
       width="1024"
       height="532"
-      class="w-full py-4"
-    />
+      class="w-full py-4" />
     <nav>
       <ul
-        class="flex gap-4 md:gap-6 uppercase tracking-widest justify-center sm:justify-end text-sm sm:text-base mb-8"
-      >
+        class="flex gap-4 md:gap-6 uppercase tracking-widest justify-center sm:justify-end text-sm sm:text-base mb-8">
         <li class="transition duration-200 hover:blur-[1px]">
           <NuxtLink to="/">Music</NuxtLink>
         </li>
@@ -22,8 +20,7 @@
           <NuxtLink
             to="mailto:%6d%61%69%6c%40%78%69%6e%78%6d%75%73%69%63%2e%63%6f%6d?subject=Enquiry from Xinxmusic website"
             target="_blank"
-            rel="noopener noreferrer"
-          >
+            rel="noopener noreferrer">
             Enquire
           </NuxtLink>
         </li>
@@ -34,8 +31,7 @@
         :track-title="currentTrackTitle"
         :track-url="currentTrackUrl"
         :track-id="currentTrackId"
-        :music="music"
-      />
+        :music="music" />
     </section>
     <section id="ep" class="mb-16">
       <h2 class="font-bold text-xl mb-8">EP</h2>
@@ -44,8 +40,7 @@
         :title="ep.title"
         :tracks="ep.tracks"
         :current-track-title="currentTrackTitle"
-        @select-track="(payload) => selectTrack(payload)"
-      />
+        @select-track="(payload) => selectTrack(payload)" />
     </section>
     <section id="single" class="mb-16">
       <h2 class="font-bold text-xl">Single</h2>
@@ -53,8 +48,7 @@
         title=""
         :tracks="music.single"
         :current-track-title="currentTrackTitle"
-        @select-track="(payload) => selectTrack(payload)"
-      />
+        @select-track="(payload) => selectTrack(payload)" />
     </section>
     <section id="remix" class="mb-16">
       <h2 class="font-bold text-xl mb-8">Remix</h2>
@@ -62,19 +56,17 @@
         title=""
         :tracks="music.remix"
         :current-track-title="currentTrackTitle"
-        @select-track="(payload) => selectTrack(payload)"
-      />
+        @select-track="(payload) => selectTrack(payload)" />
     </section>
     <footer>
       <div class="mt-2 flex items-center justify-center text-xs pb-4">
         Created with 🖤 by&nbsp;
         <a
-          href="https://www.mattgrah.am"
+          href="https://www.matg.dev/"
           target="_blank"
           rel="noreferrer"
-          class="text-neutral-500 hover:underline hover:underline-offset-2"
-        >
-          mattgrah.am
+          class="text-neutral-500 hover:underline hover:underline-offset-2">
+          Matt
         </a>
       </div>
     </footer>
@@ -126,8 +118,7 @@ onMounted(() => {
 useServerSeoMeta({
   title: "Xinx - The Music Archive",
   description: "Xinx - The Music Archive",
-  image: "https://xinxmusic.com/logo-alt.webp",
-  url: "https://xinxmusic.com",
+  ogImage: "https://xinxmusic.com/logo-alt.webp",
 });
 </script>
 
