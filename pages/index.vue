@@ -66,7 +66,7 @@
           target="_blank"
           rel="noreferrer"
           class="text-neutral-500 hover:underline hover:underline-offset-2">
-          Matt
+          matg.dev
         </a>
       </div>
     </footer>
